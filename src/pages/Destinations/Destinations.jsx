@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Destinations = ({
   name,
@@ -24,9 +25,11 @@ const Destinations = ({
             </span>
             <span className="text-gray-600">Group price: ${groupprice}</span>
           </div>
-          <button className="block w-full bg-blue-500 hover:bg-blue-400 text-white uppercase text-sm font-semibold p-3 rounded mt-3">
-            Book Now
-          </button>
+          <a
+            href=""
+            className="block w-full bg-blue-500 hover:bg-blue-400 text-white uppercase text-sm font-semibold p-3 rounded mt-3 text-center">
+            <Link to="/contacts"> Book Now</Link>
+          </a>
         </div>
       </div>
     </div>
