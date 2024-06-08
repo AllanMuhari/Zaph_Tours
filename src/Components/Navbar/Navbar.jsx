@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
+  const [showMenu, setShowMenu] = useState(false);
   return (
-    <div className="pb-7">
+    <div>
       <div className="flex  fixed z-50 bg-white w-[100%] items-center justify-center gap-96 h-24 border-b-2 border-indigo-500  ">
         <h1 className="flex text-[2rem]  lg:text-[3rem] md:text-[1.2rem] font-extrabold text-black ml-3">
           Zaph Tours
@@ -23,6 +24,7 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
+      {/* mobile navbar */}
     </div>
   );
 };
