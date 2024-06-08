@@ -11,7 +11,6 @@ const Navbar = () => {
 
   return (
     <div>
-      {/* Navbar Container */}
       <div className="fixed z-50 w-full bg-white border-b-2 border-indigo-500">
         <div className="flex items-center justify-between h-[5rem] px-4">
           <h1 className="text-2xl lg:text-3xl font-extrabold text-black">
@@ -32,7 +31,6 @@ const Navbar = () => {
             </li>
           </ul>
 
-          {/* Mobile Menu Icon */}
           <div onClick={handleNav} className="md:hidden">
             {showMenu ? (
               <AiOutlineClose size={30} className="text-black" />
@@ -47,7 +45,6 @@ const Navbar = () => {
           className={`${
             showMenu ? "block" : "hidden"
           } absolute top-[5rem] left-0 w-full bg-white z-40 border-t border-indigo-500 md:hidden`}>
-          {/* Added border-top to separate from the navbar */}
           <li className="text-center py-2 border-b">
             <Link to="/" onClick={() => setShowMenu(false)}>
               Home
