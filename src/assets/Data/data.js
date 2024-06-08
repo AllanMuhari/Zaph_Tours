@@ -4,6 +4,11 @@ import Lakenakuru from "../../assets/images/4.jpg";
 import Tsavo from "../../assets/images/11.jpg";
 import Nairobi from "../../assets/images/5.jpg";
 import Mombasa from "../../assets/images/10.jpg";
+import Amboseli from "../../assets/images/2.jpg";
+import MasaaiMara from "../../assets/images/3.jpg";
+import Samburu from "../../assets/images/6.jpg";
+import Hellsgate from "../../assets/images/7.jpg";
+import Aberdares from "../../assets/images/8.jpg";
 
 const Destinations = [
   {
@@ -59,6 +64,51 @@ const Destinations = [
     groupprice: 4500,
     description:
       "Mombasa is a coastal city in Kenya. It is known for its beautiful beaches, historic sites, and vibrant nightlife.",
+  },
+  {
+    name: "Amboseli National Park",
+    image: Amboseli,
+    type: "wildlife safaris",
+    priceperperson: 1800,
+    groupprice: 6000,
+    description:
+      "Amboseli National Park is a popular safari destination in Kenya. It is known for its large herds of elephants and stunning views of Mount Kilimanjaro.",
+  },
+  {
+    name: "Maasai Mara National Reserve",
+    image: MasaaiMara,
+    type: "wildlife safaris",
+    priceperperson: 2000,
+    groupprice: 7000,
+    description:
+      "Maasai Mara National Reserve is one of the most famous safari destinations in Africa. It is known for its abundant wildlife and the annual wildebeest migration.",
+  },
+  {
+    name: "Samburu National Reserve",
+    image: Samburu,
+    type: "wildlife safaris",
+    priceperperson: 1900,
+    groupprice: 6500,
+    description:
+      "Samburu National Reserve is a lesser-known safari destination in Kenya. It is home to a wide variety of wildlife, including the rare Grevy's zebra and reticulated giraffe.",
+  },
+  {
+    name: "Hell's Gate National Park",
+    image: Hellsgate,
+    type: "adventure tours",
+    priceperperson: 1600,
+    groupprice: 5500,
+    description:
+      "Hell's Gate National Park is known for its dramatic landscape of cliffs, gorges, and rock towers. It is a popular destination for hiking, biking, and rock climbing.",
+  },
+  {
+    name: "Aberdare National Park",
+    image: Aberdares,
+    type: "wildlife safaris",
+    priceperperson: 1700,
+    groupprice: 5800,
+    description:
+      "Aberdare National Park is a mountainous park in central Kenya. It is home to a wide variety of wildlife, including elephants, leopards, and black rhinos.",
   },
 ];
 

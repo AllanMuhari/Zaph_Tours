@@ -22,7 +22,7 @@ const Hero = () => {
             <li className="mb-2">Explore</li>,<li className="mb-2">Discover</li>
             ,<li className="mb-2">Travel</li>,
           </ul>
-          <p className="text-white w-[30rem] lg:w-[60rem] flex justify-center m-auto content-center font-extrabold  text-[4rem] lg:text-[6rem]  text-center uppercase">
+          <p className="text-white w-[20rem] lg:w-[60rem] flex justify-center m-auto content-center font-extrabold   text-[2rem] md:text-[4rem] lg:text-[6rem]   text-center uppercase ">
             Explore the world with us
           </p>
 
@@ -44,7 +44,7 @@ const Hero = () => {
             <li className="mb-2">Explore</li>,<li className="mb-2">Discover</li>
             ,<li className="mb-2">Travel</li>,
           </ul>
-          <p className="text-white w-[35rem] lg:w-[60rem] flex justify-center m-auto content-center font-extrabold  text-[4rem] lg:text-[6rem]  text-center uppercase">
+          <p className="text-white w-[20rem] lg:w-[60rem] flex justify-center m-auto  content-center font-extrabold mb-20 text-[2rem] md:text-[4rem] lg:text-[6rem]  text-center uppercase">
             Best safaris and adevntures
           </p>
 
@@ -66,13 +66,13 @@ const Hero = () => {
             <li className="mb-2">Explore</li>,<li className="mb-2">Discover</li>
             ,<li className="mb-2">Travel</li>,
           </ul>
-          <p className="text-white w-[30rem] lg:w-[60rem] flex justify-center m-auto content-center font-extrabold  text-[4rem] lg:text-[6rem]  text-center uppercase">
+          <p className="text-white w-[20rem] lg:w-[60rem] flex justify-center m-auto content-center font-extrabold  text-[2rem] md:text-[4rem] lg:text-[6rem]  text-center uppercase">
             Explore the world with us
           </p>
 
           <a
             href=""
-            className="flex justify-center  text-white bg-slate-900 w-[8rem] p-2 rounded-full m-auto mt-8 content-center transition hover:scale-110 hover:bg-indigo-500 duration-300">
+            className="flex justify-center  text-white bg-slate-900 w-[8rem] p-2 rounded-full m-auto mt-6 content-center transition hover:scale-110 hover:bg-indigo-500 duration-300">
             <Link to="/packages"> Discover More</Link>
           </a>
         </div>

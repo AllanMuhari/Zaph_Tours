@@ -4,11 +4,11 @@ import { FaHandHoldingDollar, FaHeadset, FaMap } from "react-icons/fa6";
 
 const About = () => {
   return (
-    <div className="m-3 ">
+    <div className="m-3  ">
       <h1 className="text-center font-extrabold text-4xl">About Us</h1>
-      <div className="flex flex-col lg:flex-row md:flex-row justify-center content-center gap-1 ">
-        <img src={Aboutimg} alt="About" className="w-[30rem]" />
-        <div className="flex  flex-col w-[60%]">
+      <div className="flex flex-col lg:flex-row md:flex-row justify-center content-center lg:w-[70%] m-auto">
+        <img src={Aboutimg} alt="About" className="w-[30rem] rounded-xl" />
+        <div className="flex  flex-col w-[60%] m-auto">
           <h2 className=" text-center text-2xl font-semibold sm:mb-4">
             Why Choose Us
           </h2>
@@ -19,7 +19,7 @@ const About = () => {
             Tourist. Quality And Services Here, Our Quality And Service Go
             Hand-In-Hand
           </p>
-          <div className="flex gap-[2rem] justify-center m-1 ">
+          <div className="flex gap-[2rem] justify-center m-1 flex-col md:flex-row lg:flex-row">
             <div className="flex flex-col items-center justify-center bg-slate-400 p-3 rounded-lg">
               <FaHandHoldingDollar className="h-11 w-[6rem] mb-2" />
               <h1 className="text-white font-bold text-center">

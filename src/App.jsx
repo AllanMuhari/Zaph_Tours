@@ -5,6 +5,7 @@ import Home from "../src/pages/Home/Home";
 import Destinations from "../src/pages/Destinations/Destination";
 import Packages from "../src/pages/Packages/Packages";
 import Contacts from "../src/pages/Contacts/Contacts";
+import Footer from "../src/Components/Footer/Footer";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
           <Route exact path="/packages" element={<Packages />} />
           <Route exact path="/contacts" element={<Contacts />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   );
