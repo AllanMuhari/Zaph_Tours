@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Destinations from "./Destinations";
 import data from "../../assets/Data/data";
-import { Link } from "react-router-dom";
 
 const Destination = () => {
   const [displayedDestinations, setDisplayedDestinations] = useState(3);

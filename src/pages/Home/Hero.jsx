@@ -10,7 +10,6 @@ const Hero = () => {
   return (
     <div className="relative pt-24">
       {" "}
-      {/* Added padding-top to push carousel content below navbar */}
       <Carousel
         showArrows={true}
         infiniteLoop={true}
@@ -18,7 +17,6 @@ const Hero = () => {
         showStatus={false}
         autoPlay={true}
         interval={3000}>
-        {/* Slide 1 */}
         <div className="relative w-full h-[40rem]">
           <img
             src={Heroimg}
@@ -42,7 +40,6 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* Slide 2 */}
         <div className="relative w-full h-[40rem]">
           <img
             src={Heroimg3}
@@ -66,7 +63,6 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* Slide 3 */}
         <div className="relative w-full h-[40rem]">
           <img
             src={Heroimg2}
