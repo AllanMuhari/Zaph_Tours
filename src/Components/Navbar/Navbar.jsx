@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <div>
       <div className="fixed z-50 w-full bg-white border-b-2 border-indigo-500">
-        <div className="flex items-center gap-96 justify-center h-24 px-4">
+        <div className="flex items-center gap-96 justify-center h-[5rem] ">
           <h1 className="text-2xl lg:text-3xl font-extrabold text-black">
             Zaph Tours
           </h1>

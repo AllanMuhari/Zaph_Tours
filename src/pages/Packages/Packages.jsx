@@ -9,8 +9,8 @@ const Packages = () => {
     setDisplayedPackages(displayedPackages + 3);
   };
   return (
-    <div>
-      <h1 className="text-center font-extrabold text-3xl underline ">
+    <div className="pt-[5rem]">
+      <h1 className="text-center font-extrabold text-3xl underline mt-8 ">
         Packages
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-[80%] m-auto mb-7">

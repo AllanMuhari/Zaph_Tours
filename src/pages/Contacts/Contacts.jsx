@@ -4,9 +4,8 @@ import background from "../../assets/images/6.jpg";
 const Contacts = () => {
   return (
     <div>
-      {/* Heading Section */}
       <div
-        className="heading bg-cover bg-center h-64 flex items-center justify-center"
+        className="heading bg-cover bg-center h-[40rem] flex items-center justify-center"
         style={{ backgroundImage: `url(${background})` }}>
         <h1 className="text-white text-4xl font-bold">Book Now</h1>
       </div>

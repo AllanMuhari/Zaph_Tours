@@ -10,8 +10,8 @@ const Destination = () => {
   };
 
   return (
-    <div>
-      <h1 className="text-black text-center font-extrabold text-3xl mb-6">
+    <div className="pt-[6rem] ">
+      <h1 className="text-black text-center underline font-extrabold text-3xl">
         Destinations
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 m-2 lg:m-5">
