@@ -9,23 +9,6 @@ A simple React project using Vite as the bundler.
 3. Run `npm install` to install the dependencies.
 4. Run `npm run dev` to start the development server.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
-
-````
-
-### 2. Run the `vite` command
-
-```bash
-$ npx vite
-````
-
-### 3. The `README.md` file is updated
-
-```markdown
-[]: # Path: README.md
-
 ## React + Vite
 
 A simple React project using Vite as the bundler.
@@ -40,4 +23,7 @@ A simple React project using Vite as the bundler.
 ## Usage
 
 Run `npm run dev` to start the development server.
+
+```
+
 ```
